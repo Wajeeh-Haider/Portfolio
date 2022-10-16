@@ -26,6 +26,7 @@ import react from "../assets/react.png";
 import node from "../assets/node.png";
 import redux from "../assets/redux.png";
 import sass from "../assets/sass.png";
+import circle from '../assets/circle.svg'
 
 const images = {
   About01,
@@ -57,6 +58,7 @@ const images = {
   node,
   redux,
   sass,
+  circle,
 };
 
 export default images;
