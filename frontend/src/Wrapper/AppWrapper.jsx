@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import NavigationDots from "../components/NavigationDots";
 
 const AppWrapper = (Component, idName) =>

@@ -14,17 +14,17 @@ export default {
       type: "string",
     },
     {
-      name: "feedback",
-      title: "Feedback",
-      type: "string",
-    },
-    {
       name: "image",
-      title: "Image",
+      title: "Testimonial Image",
       type: "image",
       options: {
         hotspot: true,
       },
+    },
+    {
+      name: "feedback",
+      title: "Feedback",
+      type: "string",
     },
   ],
 };
