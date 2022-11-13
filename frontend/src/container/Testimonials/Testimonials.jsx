@@ -10,13 +10,12 @@ const Testimonials = () => {
   const handleClick = (index) => {
     setCurrentIndex(index);
   };
-  console.log(testimonials[1]);
+
   useEffect(() => {
     const query = '*[_type == "testimonials"]';
 
     client.fetch(query).then((data) => {
       setTestimonials(data);
-      console.log(data);
     });
   }, []);
 

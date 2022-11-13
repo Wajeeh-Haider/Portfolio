@@ -1,13 +1,14 @@
 import sanityClient from "@sanity/client";
 import imageUrlBuilder from "@sanity/image-url";
 
+const projectId = import.meta.env.VITE_SANITY_PROJECT_ID;
+const token = import.meta.env.VITE_SANITY_TOKEN;
 export const client = sanityClient({
-  projectId: "i843ff01",
+  projectId,
   dataset: "production",
   apiVersion: "2022-10-16",
   useCdn: true,
-  token:
-    "skNYfTtMD4Yahrm2ctEu4shcBV5iK0iBPNtfhpdANz7F2BEKhQ08B4JofqLv27RUy4LgMYCnsVTWKQTBYsHj4TyWbdtYwIpiroT6SxopPQkZ6hBzetPTeG5NcEVqzzCQCDRcbmAhcLUxQ8yt8b39WffO8vY4138waOPw1tsk7AJoBqM0yVCr",
+  token
 });
 
 const builder = imageUrlBuilder(client);
