@@ -18,7 +18,7 @@ const About = () => {
     <>
       <h2 className="head-text">
         I know that
-        <span> Great Development</span>
+        <span>Wajeeh</span>
         <br />
         means
         <span> Great Bussiness</span>
